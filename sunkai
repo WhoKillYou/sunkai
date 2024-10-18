@@ -1,0 +1,39 @@
+<!DOCTYPE html>  
+<html lang="zh-CN">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>我的个人博客</title>  
+    <link rel="stylesheet" href="styles.css">  
+</head>  
+<body>  
+    <header>  
+        <h1>欢迎来到我的个人博客</h1>  
+        <nav>  
+            <ul>  
+                <li><a href="index.html">主页</a></li>  
+                <li><a href="posts/post1.html">文章1</a></li>  
+                <!-- 添加更多文章链接 -->  
+            </ul>  
+        </nav>  
+    </header>  
+    <main>  
+        <section>  
+            <h2>关于我</h2>  
+            <p>我是[你的名字]，一个热爱编程和写作的人。在这里，我会分享我的技术心得和生活感悟。</p>  
+        </section>  
+        <section>  
+            <h2>最新文章</h2>  
+            <article>  
+                <h3><a href="posts/post1.html">文章标题1</a></h3>  
+                <p>这是一篇关于[主题]的文章摘要。</p>  
+            </article>  
+            <!-- 添加更多文章摘要 -->  
+        </section>  
+    </main>  
+    <footer>  
+        <p>&copy; 2023 [你的名字]. 保留所有权利。</p>  
+    </footer>  
+    <script src="scripts.js"></script>  
+</body>  
+</html>
